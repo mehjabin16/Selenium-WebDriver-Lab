@@ -46,10 +46,10 @@ namespace SeleniumTests
             driver.Navigate().GoToUrl("https://sis.iutoic-dhaka.edu/login");
             driver.FindElement(By.Name("username")).Click();
             driver.FindElement(By.Name("username")).Clear();
-            driver.FindElement(By.Name("username")).SendKeys("170042033");
+            driver.FindElement(By.Name("username")).SendKeys("");
             driver.FindElement(By.Name("password")).Click();
             driver.FindElement(By.Name("password")).Clear();
-            driver.FindElement(By.Name("password")).SendKeys("potterhead");
+            driver.FindElement(By.Name("password")).SendKeys("");
             driver.FindElement(By.Id("m_login_signin_submit")).Click();
             driver.FindElement(By.XPath("//div[@id='kt_header']/div[2]/div/div/div/span[3]")).Click();
             driver.FindElement(By.XPath("//a[contains(text(),'Sign\n                            Out')]")).Click();
